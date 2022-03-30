@@ -20,7 +20,7 @@ There are indeed many other layers that complicate the picture in real-life. For
 
  
 
-**The Shell**
+## The Shell
 
 The shell is the gateway to interacting with the operating system. Be it bash, zsh, csh or any of the many other shells, they all fundamentally have only one major task — to allow you to execute programs.
 
@@ -30,6 +30,6 @@ But shells do much more than allow you to simply execute a program. They have po
 
  
 
-**Implementing pipe**
+### Implementing pipe
 
 If a process reads an empty pipe, it will by default *block* or be put into hibernation until there is some data available. Thus two processes may use a pipe to communicate that some action has been taken just by writing a byte of data; rather than the actual data being important, the mere presence of *any* data in the pipe can signal a message. 

@@ -1,4 +1,4 @@
-**C Standards**
+## C Standards
 
 Officially this standard is known as ISO/IEC 9899:1999(E), but is more commonly referred to by its shortened name *C99*.
 
@@ -8,7 +8,7 @@ It is also important to note what the C standards does *not* define. Most import
 
  
 
-**GNU C**
+### GNU C
 
  
 
@@ -16,7 +16,7 @@ The GNU C Compiler, more commonly referred to as gcc, almost completely implemen
 
  
 
-**Types**
+## Types
 
  
 
@@ -26,9 +26,10 @@ The C99 standard purposely only mentions the *smallest* possible size of each of
 
 To be completely safe programmers need to never assume the size of any of their variables, however a functioning system obviously needs agreements on what sizes types are going to be used in the system. Each architecture and operating system conforms to an *Application Binary Interface* or *ABI*. The ABI for a system fills in the details between the C standard and the requirements of the underlying hardware and operating system. An ABI is written for a specific processor and operating system combination.
 
+![image](https://user-images.githubusercontent.com/11829057/160825460-35416cb9-d8dd-4388-a32c-5455277843f5.png)
 
 
- 
+
 
 You can see that in the LP64 (long-pointer 64) model long values are defined to be 64 bits wide. 
 
@@ -36,7 +37,7 @@ The LP64 model is widely used on UNIX systems.
 
  
 
-**Type qualifiers**
+### Type qualifiers
 
  
 
@@ -44,7 +45,7 @@ Qualifiers are all intended to pass extra information about how the variable wil
 
  
 
-**Standard Types**
+### Standard Types
 
  
 
